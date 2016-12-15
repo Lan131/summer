@@ -8,6 +8,9 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+devtools::use_package("pracma")
+devtools::use_package("stringr")
+devtools::use_package("pander")
 
 if (!require('pander')) {
   devtools::install_github('Rapporter/pander')
