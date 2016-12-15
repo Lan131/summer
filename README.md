@@ -90,19 +90,20 @@ pracma
 
 
 In the event that this package throws errors run the following in command:
-   ` if (!require('pander')) {
+   
+    if (!require('pander')) {
      devtools::install_github('Rapporter/pander')
-}
+    }
 
-if (!require('stringr')) {
-  install.packages('stringr')
-}
+    if (!require('stringr')) {
+    install.packages('stringr')
+    }
 
 
-if(!require('pracma')){
-  install.packages('pracma')
-}
+    if(!require('pracma')){
+    install.packages('pracma')
+    }
 
-library(pracma)
-library(pander)
-library(stringr)`
+    library(pracma)
+    library(pander)
+    library(stringr)`
