@@ -43,7 +43,7 @@ This packages seeks to implement summation notation and product notation (Sigma 
 
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/583f6259b306bbaaf552d77f75f0bedfe411b6aa)
 
-`summation_notation(i=1,n=100,formula="x^4")`
+`summation_notation(i=0,n=100,formula="x^4")`
 
 ##Pi notation
 #### Usage
