@@ -1,4 +1,4 @@
-# summer WIP
+# summer
 This packages seeks to implement summation notation and product notation (Sigma and Pi notation) in R in a style similar to symbolic algebraic systems.
 
 
