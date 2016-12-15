@@ -3,13 +3,18 @@ This packages seeks to implement summation notation and product notation (Sigma 
 
 
 ## Installation: 
-
+    
     if(!require(summer))
+
+    { 
   
-    { install.packages("devtools")
-    library(devtools)  
-    install_github("mlanier/summer")}else{
-    library(summer)}
+      install.packages("devtools")
+      library(devtools)  
+      devtools::install_github("mlanier/summer")
+      library(summer)
+     }else{
+      library(summer)}
+
 
 ## R Topics documented
 
