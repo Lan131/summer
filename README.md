@@ -21,7 +21,8 @@ This packages seeks to implement summation notation and product notation (Sigma 
 1. summation\_notation
 2. product\_notation
 3. Riemann Zeta Function
-
+4. Complex Exponentiation 
+5. Complex Zeta Function
 ##Sigma Notation
 
 #### Usage
@@ -81,6 +82,41 @@ Calculate Apery's Constant.
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/ee3d2504b925362014d7260cb0eb808c522048fa)
 
 `Zeta(3)`
+
+## Complex Exponentiation
+
+#### Usage
+`c_Expo(a=2,b=7)`
+#### Arguments
+ `a`    The base
+ `b`    The exponent
+
+  
+#### Details
+   Consider the value *a* to the *b\*i*. *b* must be an integer. *a* to the *b\*i* is multivalued, this function gives only one value.    To check equivelence its reccomended that the user pass the returned value to the Mod function.
+
+#### Examples
+Calculate 2 to the 7*i*.
+
+`c_Expo(2,7)`
+
+## Complex Zeta Function
+
+#### Usage
+`c_Zeta(a=3,b=3)`
+#### Arguments
+ `a`    The real part of the argument *a*+*bi*.
+ `b`    The imaginary part of the argument *a*+*bi*.
+
+  
+#### Details
+   Experimental. This method uses a Monte Carlo calculation to evalulate the Euler integral. To check equivelence its recommended that the user pass the returned value to the Mod function.
+
+#### Examples
+Calculate the Zeta function evaluated at 2+2\**i
+
+`c_Zeta(2,2`
+
 
 
 ## Depends
