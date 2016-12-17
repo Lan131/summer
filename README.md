@@ -115,7 +115,7 @@ Calculate 2 to the 7*i*.
 #### Examples
 Calculate the Zeta function evaluated at 2+2\**i
 
-`c_Zeta(2,2`
+`c_Zeta(2,2)`
 
 
 
