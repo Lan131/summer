@@ -89,7 +89,7 @@ Calculate Apery's Constant.
 `c_Expo(a=2,b=7)`
 #### Arguments
  `a`    The base
- `b`    The coefiicent of the complex exponent ie *bi*.
+ `b`    The coefficent of the complex exponent ie *bi*.
 
   
 #### Details
