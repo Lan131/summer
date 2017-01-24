@@ -89,11 +89,11 @@ Calculate Apery's Constant.
 `c_Expo(a=2,b=7)`
 #### Arguments
  `a`    The base
- `b`    The exponent
+ `b`    The coefiicent of the complex exponent ie *bi*.
 
   
 #### Details
-   Consider the value *a* to the *b\*i*. *b* must be an integer. *a* to the *b\*i* is multivalued, this function gives only one value.    To check equivelence its reccomended that the user pass the returned value to the Mod function.
+   Consider the value *a* to the *bi*. *b* must be an integer. *a* to the *bi* is multivalued, this function gives only one value.    To check equivelence its reccomended that the user pass the returned value to the Mod function.
 
 #### Examples
 Calculate 2 to the 7*i*.
