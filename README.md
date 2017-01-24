@@ -142,4 +142,4 @@ In the event that this package throws errors run the following in command:
 
     library(pracma)
     library(pander)
-    library(stringr)`
+    library(stringr)
