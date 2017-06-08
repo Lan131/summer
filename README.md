@@ -46,7 +46,7 @@ This packages seeks to implement summation notation and product notation (Sigma 
 
 `summation_notation(i=0,n=100,formula="x^4")`
 
-##Pi notation
+## Pi notation
 #### Usage
 `product_notation(i=1,n=100,formula="x")`
 #### Arguments
